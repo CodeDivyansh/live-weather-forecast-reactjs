@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app {
+background: url('./assets/68J.gif') no-repeat center center/cover;
+transition: 0.6 ease-out;
+}
+
+main {
+  min-height: 93.9vh;
+  padding: 15px;
+  /* padding-top: 40px; */
+  justify-content: space-around;
+}
+
+.search-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 50vh;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  /* background-color: rgb(255, 255, 255, 0.5); */
+  /* box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.5); */
+}
+
+.search-box .search-bar {
+display: inline;
+width: 100%;
+padding: 1.3rem;
+
+
+border: none;
+appearance: none;
+background: none;
+outline: none;
+
+background-color: rgba(255, 255, 255, 0.5);
+border-radius: 16px;
+box-shadow: 0px 5px rgba(0, 0, 0, 0.4); 
+
+color: #000000;
+font-size: 20px;
+}
+
+.search-box .search-bar:focus-within {
+  background-color: rgb(245, 245, 220, 0.75);
+}
+.location-box{
+  padding: 10px;
+  line-height: 30px;
+  margin-left: 30px;
+  background-color: beige;
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+  width: 52vh;
+  opacity: 0.6;
+  font-weight: 700;
+  box-shadow: 0px 0px 3px rgb(0, 0, 0, 0.5);
+  border-radius: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem auto;
+  padding: .5rem;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.5);
+
+}
+.location-box .location {
+  font-size: 25px;
+  /* text-shadow: 2px 2px rgba(0, 0, 0, 0.3); */
+}
+.location-box .date{
+  font-size: 20;
+  color: grey;
+
+}
+.weather-box {
+  padding: 10px;
+  margin-top: -5px;
+  line-height: 30px;
+  margin-left: 30px;
+  background-color: beige;
+  border-radius: 16px;
+  text-align: center;
+  width: 52vh;
+  opacity: 0.6;
+  font-weight: 700;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.5);
+
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem auto;
+  padding: .5rem;
+}
+
+.weather-box .temp {
+  font-size: 25px;
+  /* text-shadow: 2px 2px rgba(0, 0, 0, 0.3); */
+
+}
+
+.bottom {
+  display: flex;
+  line-height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 50vh;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255, 0.5);
+  font-weight: 700;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.5);
+  animation: ease-in-out 3s;
+}
+
+.map-container {
+  height: 300px;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  width: 50vh;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.4); 
+
+}
